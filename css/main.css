@@ -1,20 +1,5 @@
 @charset "UTF-8";
-/*------------------------------------------------------------------
-[Master Stylesheet]
 
-Project:  TATEE
-Version:	1.0
-Last change:	11/2018 [Add Define a table of contents Link]
-Assigned to:	HAU NGUYEN
-Primary use:	AuCreative
--------------------------------------------------------------------*/
-/* ==========================================================================
-   #BOX-SIZING
-   ========================================================================== */
-/**
- * More sensible default box-sizing:
- * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
- */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -74,6 +59,10 @@ h5 {
 
 h6 {
   font-size: 13px;
+}
+
+p{
+  font-size: 15px;
 }
 
 ul {
@@ -305,7 +294,7 @@ button {
   line-height: 43px;
   border: 1px solid #888;
   padding: 0 23px;
-  font-size: 13px;
+  font-size: 15px;
   color: #555;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1147,7 +1136,7 @@ a:hover {
 }
 
 .media-about-2 .media__text {
-  margin-bottom: 39px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 991px) {
@@ -2738,7 +2727,7 @@ a:hover {
   line-height: 43px;
   padding: 0 22px;
   border: 1px solid #ececec;
-  font-size: 13px;
+  font-size: 15px!important;
   color: #fff;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease;

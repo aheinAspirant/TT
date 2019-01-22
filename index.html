@@ -35,6 +35,7 @@
     display: none;
     }   
     </style>
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
 </head>
 
 <body class="animsition js-preloader">
@@ -98,9 +99,10 @@
                         </div>
                         <div class="media__body" id="about">
                             <h5 class="title-sub">Tourney Town USA</h5>
-                            <h2 class="title-1">Make the Move to Tourney Town</h2>
-                            <p class="media__text">Welcome to Tourney Town, a place where you can sign up to meet and compete with teams from your town, your state, or even across the country. Regardless of your sport, your location, or your team's age bracket, you can easily create a tournament, or register your team to compete in one through our streamlined, safe, and secure process.</p>
-                            <p class="media__text">Tourney Town provides two paths for use, depending on your role. Directors can create tournaments, post them to Tourney Town, and then manage them as other teams enter your tournament. And coaches can search through tournaments, easily book them, and then get back to what you do best: preparing your team! </p>
+                            <h2 class="title-1">Make The Move To Tourney Town</h2>
+                            <p class="media__text">Welcome to Tourney Town, a new online service for youth sports coaches and tournament directors.</p>
+                            <p class="media__text">Coaches, regardless of your teams location, age bracket, or skill level, you can find the tournaments that are right for you. Sign up to meet and compete with teams from your town, your state, or across the country.  All done through our simple secure online marketplace.</p>
+                            <p class="media__text">Directors, you can easily create a tournament, reach new teams and manage the entrants all through our easy to use, streamlined, process.  Keep tabs on the number of teams registered, get notifications as team signup and approve registrations all in one place.</p>
                             <a class="au-btn au-btn--arrow" href="#contact">Get Notified When We Launch
                                 <i class="zmdi zmdi-arrow-right ic-arrow"></i>
                             </a>
@@ -134,10 +136,10 @@
                                     <span class="line line--bottom"></span>
                                     <div class="media__body">
                                         <div class="media__icon">
-                                            <img src="images/icon/service-02.png" data-toggle="modal" data-target="#createModal">
+                                            <img src="images/icon/service-02.png" class="popper" title="Create" data-container="body" data-toggle="popover" data-placement="top" data-content="Creating a tournament is easy! Our interface steps you through the process to ensure that all the necessary information is included. Once created and verified the tournament is ready for signups.">
                                         </div>
                                         <h4 class="media__title">
-                                            <a href="#" data-toggle="modal" data-target="#createModal">Create</a>
+                                            <span class="popper" title="Create" data-container="body" data-toggle="popover" data-placement="top" data-content="Creating a tournament is easy! Our interface steps you through the process to ensure that all the necessary information is included. Once created and verified the tournament is ready for signups.">Create</span>
                                         </h4>
                                         
                                     </div>
@@ -147,10 +149,10 @@
                                     <span class="line line--bottom"></span>
                                     <div class="media__body">
                                         <div class="media__icon">
-                                            <img src="images/icon/glove.png" data-toggle="modal" data-target="#postModal">
+                                            <img src="images/icon/glove.png"class="popper" title="Post" data-container="body" data-toggle="popover" data-placement="top" data-content="Let the country know and watch your brackets fill up. Easy Online Registration lets teams quickly signup for your tournament and you will be notified as it happens.">
                                         </div>
                                         <h4 class="media__title">
-                                            <a href="#" data-toggle="modal" data-target="#postModal">post</a>
+                                            <span class="popper" title="Post" data-container="body" data-toggle="popover" data-placement="top" data-content="Let the country know and watch your brackets fill up. Easy Online Registration lets teams quickly signup for your tournament and you will be notified as it happens.">Post</span>
                                         </h4>
                                     </div>
                                 </div>
@@ -159,10 +161,10 @@
                                     <span class="line line--bottom"></span>
                                     <div class="media__body">
                                         <div class="media__icon">
-                                            <img src="images/icon/manage.png" data-toggle="modal" data-target="#manageModal">
+                                            <img src="images/icon/manage.png"class="popper" title="Manage" data-container="body" data-toggle="popover" data-placement="top" data-content="Easy to use portal allows you to edit your posting, approve entrants and track entry fees. Organize your tournaments, manage your registered teams, and request funds at any time, all from one page.">
                                         </div>
                                         <h4 class="media__title">
-                                            <a href="#" data-toggle="modal" data-target="#manageModal">manage</a>
+                                            <span class="popper" title="Manage" data-container="body" data-toggle="popover" data-placement="top" data-content="Easy to use portal allows you to edit your posting, approve entrants and track entry fees. Organize your tournaments, manage your registered teams, and request funds at any time, all from one page.">Manage</span>
                                         </h4>
                                     </div>
                                 </div>
@@ -189,11 +191,11 @@
                                         <span class="line line--bottom"></span>
                                         <div class="media__body">
                                             <div class="media__icon">
-                                                <img src="images/icon/search.png" data-toggle="modal" data-target="#searchModal">
-                                            </div>
-                                            <h4 class="media__title">
-                                                <a href="#" data-toggle="modal" data-target="#searchModal">Search</a>
-                                            </h4>
+                                            <img src="images/icon/search.png" class="popper" title="Search" data-container="body" data-toggle="popover" data-placement="top" data-content="Find the right tournament for your team. Filter the list based on Distance, Location, Age, and Skill. Scroll through the results to find the event that fits.">
+                                        </div>
+                                        <h4 class="media__title">
+                                            <span class="popper" title="Search" data-container="body" data-toggle="popover" data-placement="top" data-content="Find the right tournament for your team. Filter the list based on Distance, Location, Age, and Skill. Scroll through the results to find the event that fits.">Search</span>
+                                        </h4>
                                         </div>
                                     </div>
                                     <div class="media-service-2">
@@ -201,11 +203,11 @@
                                         <span class="line line--bottom"></span>
                                         <div class="media__body">
                                             <div class="media__icon">
-                                                <img src="images/icon/service-01.png" data-toggle="modal" data-target="#bookModal">
-                                            </div>
-                                            <h4 class="media__title">
-                                                <a href="#" data-toggle="modal" data-target="#bookModal">Book</a>
-                                            </h4>
+                                            <img src="images/icon/service-01.png" class="popper" title="Book" data-container="body" data-toggle="popover" data-placement="top" data-content="Once you find the right tournament, register your team. The tournament director will be notified of your request and approve. Once approved, the tournament fees will be collected online / no more mailing checks.">
+                                        </div>
+                                        <h4 class="media__title">
+                                            <span class="popper" title="Book" data-container="body" data-toggle="popover" data-placement="top" data-content="Once you find the right tournament, register your team. The tournament director will be notified of your request and approve. Once approved, the tournament fees will be collected online / no more mailing checks.">Book</span>
+                                        </h4>
                                         </div>
                                     </div>
                                     <div class="media-service-2">
@@ -213,11 +215,11 @@
                                         <span class="line line--bottom"></span>
                                         <div class="media__body">
                                             <div class="media__icon">
-                                                <img src="images/icon/relax.png" data-toggle="modal" data-target="#relaxModal">
-                                            </div>
-                                            <h4 class="media__title">
-                                                <a href="#" data-toggle="modal" data-target="#relaxModal">relax</a>
-                                            </h4>
+                                            <img src="images/icon/relax.png" class="popper" title="Relax" data-container="body" data-toggle="popover" data-placement="top" data-content="Youth sports doesn’t have to be so stressful. Let Tourney Town USA help!">
+                                        </div>
+                                        <h4 class="media__title">
+                                            <span class="popper" title="relax" data-container="body" data-toggle="popover" data-placement="top"  data-content="Youth sports doesn’t have to be so stressful. Let Tourney Town USA help!">Relax</span>
+                                        </h4>
                                         </div>
                                     </div>
                                 </div>
@@ -284,157 +286,17 @@
             <!-- END FOOTER-->
         </main>
         <!-- END MAIN-->
-        <!-- Modals -->
-        <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="createModal">Create Tournament</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                    <li>Creating a tournament is easy!</li>
-                    <li>Easy to use interface</li>
-                    <li>Provide all of the tournament information you need</li>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
+      
             </div>
           </div>
         </div>
-        <div class="modal fade" id="postModal" tabindex="-1" role="dialog" aria-labelledby="postModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="postModal">Post Tournament</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                    <li>Let the country know and watch your brackets fill up</li>
-                    <li>Easy Online Registration available</li>
-                    <li>Sign in and follow our simple process</li> 
-
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="manageModal" tabindex="-1" role="dialog" aria-labelledby="manageModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="manageModal">Manage Tournament</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                   <li>Easy to use dashboards</li>
-                    <li> Edit your postings</li>
-                <li>Collect your money and request funds at any time</li>
-                <li>Organize your registered teams in one spot</li>
-
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="searchModal">Search For A Tournament</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                    <li>Find and register your team</li>
-                    <li>Advanced search capabilities</li>
-                    <li>Filter your criteria</li>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="bookModal">Book Tournament</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <ul>
-                   <li>Register and guarantee your spot </li>
-                    <li>See who’s coming </li>
-                    <li>Pay with your card online / no more mailing checks</li>
-
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade" id="relaxModal" tabindex="-1" role="dialog" aria-labelledby="relaxModal" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="relaxModal">Relax</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>Youth sports doesn’t have to be so stressful</p><h4>Let Tourney Town USA help!</h4>
-
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
 
     </div>
-
+    
     <!-- Jquery JS-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap JS-->
+    
     <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS-->
     <script src="vendor/animsition/animsition.min.js"></script>
@@ -469,6 +331,9 @@
 
     <!-- Main JS-->
     <script src="js/global.js"></script>
+    <script type="text/javascript">
+        $('[data-toggle="popover"]').popover()
+    </script>
 
 </body>
 
