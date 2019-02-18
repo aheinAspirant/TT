@@ -120,13 +120,7 @@ button {
 /* ==========================================================================
    #SHARED
    ========================================================================== */
-/**
- * Shared declarations for certain elements.
- */
-/**
- * Always declare margins in the same direction:
- * csswizardry.com/2012/06/single-direction-margin-declarations
- */
+
 .bg-pattern-01 {
   background: url("../images/bg-pattern-01.jpg") center center/cover fixed no-repeat;
 }
@@ -4274,8 +4268,6 @@ button {
 
 .page-line__inner {
   height: 100%;
-  border-left: 1px solid #f4f4f4;
-  border-right: 1px solid #f4f4f4;
   opacity: 1;
   display: -webkit-box;
   display: -webkit-flex;
@@ -4301,7 +4293,6 @@ button {
 .page-col {
   width: 33.3333333333%;
   height: 100%;
-  border-right: 1px solid #f4f4f4;
   background: transparent;
 }
 
@@ -16396,4 +16387,14 @@ img.mainLogo {
     /* text-align: center; */
     left: 50%;
     transform: translateX(-50%);
+}
+/*New V2 Changes*/
+.faq{
+  padding: 0 10px!important;
+}
+.aboutUsLeadImg{
+  padding-right: 10px!important;
+}
+.card-header h5 button{
+  color:#81B441;
 }
